@@ -1,0 +1,20 @@
+# Dependencies
+vendor/
+node_modules/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Local configuration
+config.local.php
+
+# Temporary files
+*.log
+*.tmp
+
+# Operating system files
+.DS_Store
+Thumbs.db
+practical9/db.php
